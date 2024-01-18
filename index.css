@@ -1,0 +1,293 @@
+body{
+    font-family: 'Oswald', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 4px 7px 4px rgb(24, 24, 24);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+    height: 70px;
+}
+nav img{
+    height: 90px;
+}
+nav ul a{
+    text-decoration: none;
+    color:white;
+    margin-inline: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+nav button{
+    width: 80px;
+    height: 23px;
+    background-color: rgb(223, 65, 65);
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+    border: none;
+}
+nav button:hover{
+    border: 2px solid red;
+    background-color: transparent;
+}
+nav ul{
+    margin-right: 33px;
+}
+.logo{
+     margin-left: 22px;
+}
+.logo h1{
+    position: absolute;
+    top: -8px;
+    font-size: 30px;
+    font-family: 'courgette', cursive;
+    color: red;
+    border-radius: 3px;
+    border-bottom: 4px solid red;
+    border-bottom-right-radius: 22px ;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 175px;
+}
+.main .mainText h1{
+    font-size: 50px;
+    font-family:'Bebas Neue', sans-serif;
+    padding: 10px;
+    margin-right: 15px;
+    color: rgb(192,192,192,0.671);
+}
+ .mainText h2{
+    margin: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 33px;
+    color: rgb(241, 162, 162);
+}
+.mainText p{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px;
+    color: rgba(192, 192, 192, 0.671);
+}
+.mainText button{
+    margin: 40px;
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 22px;
+}
+.mainText button:hover{
+    border: 3px solid red;
+    background-color: transparent;
+    cursor: pointer;
+}
+.main img{
+    width: 40%;
+    margin: 40px;
+    border-radius: 2px;
+}
+.head{
+    text-align: center;
+    margin-top: 60px;
+    padding-top: 65px;
+}
+.head span{
+    color: rgb(53, 151, 249);
+}
+ .card{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+    
+}
+ .card .crd{
+    width: 300px;
+    height: 50%;
+    margin-inline: 22px;
+    background-color: white;
+    color: black;
+}
+.foodText button{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.crd .foodText{
+    padding: 22px;
+}
+.crd .foodText h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.crd .foodText p{
+    font-family: 'Times New Roman', Times, serif;
+}
+.crd:hover{
+    background-color: rgb(101, 101, 101);
+    color: white;
+}
+.crd img{
+    width: 100%;
+    height: 20%;
+}
+
+.best{
+    display: flex;
+    width: 800px;
+    background-color: white;
+    color:black;
+    margin-top: 33px;
+    margin-left: 230px;
+    
+}
+.best img{
+    width: 44%;
+    align-items: center;
+
+}
+.best .bestText{
+    padding: 22px;
+}
+.best .bestText h2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.best .bestText p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bestText{
+    text-align: center;
+}
+.bestText a{
+    width: 130px;
+    padding: 8px;
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    border: none;
+    font-size: 18px;
+}
+
+.order{
+    display: flex;
+    justify-content: center;
+}
+.orderText i{
+    font-size: 187px;
+    color: red;
+}
+.orderText i:hover{
+   color: rgb(62, 62, 214);
+}
+.orderText button{
+    width: 130px;
+    height: 36px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 18px;
+}
+.order button:hover{
+    border: 3px solid red;
+    background-color: transparent;
+    cursor: pointer;
+}
+.orderText{
+    margin-inline: 100px;
+}
+.tracking h1{
+    margin: 30px;
+    color: rgb(192,192,192,0.671);
+    text-align: center;
+}
+.tracking h2{
+    margin: 30px;
+    color: rgb(192,192,192,0.671);
+    text-align: center;
+}
+.tracking p{
+    margin: 30px;
+    color: rgb(192,192,192,0.671);
+    text-align: center;
+}
+.tracking img{
+    margin: 10px;
+    height: 10px;
+    width: 50px;
+    padding: 10px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(241, 230, 230);
+    color: black;
+    padding: 55px;
+    margin-top: 84px;
+}
+
+/* login */
+.loginpage{
+    display: none;
+    width: 190px;
+    padding: 22px;
+    background-color: white;
+    position: absolute;
+    margin-left: 81%;
+    top: 16%;
+    text-align: center;
+}
+
+.loginpage input{
+    width: 170px;
+    padding: 4px;
+    border: 2px solid rgb(52, 141, 249);
+    outline: none;
+    margin-top: 11px;
+}
+.loginpage button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(54, 156, 250);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+}
+
+/* tracking */
+
+.tracking{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 175px;
+    display: none;
+}
+.tracking img{
+    width: 50%;
+    height: 30%;
+}
+#logi{
+   width: 100px; 
+   height: 100px;
+}
+
+
